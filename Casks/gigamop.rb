@@ -1,6 +1,6 @@
 cask "gigamop" do
-  version "0.1.1"
-  sha256 "e3069bab99d04c6b10ced1d5527368c5b068a3e20a1ef5dcf68ff350775bc794"
+  version "0.1.2"
+  sha256 "04f9a166d6e94fae81c5315516135ed88cf3bffa3e6abcec5352c4fae48e5726"
 
   url "https://gigamop.com/download/Gigamop-#{version}.dmg"
   name "Gigamop"
@@ -12,6 +12,7 @@ cask "gigamop" do
     strategy :header_match
   end
 
+  auto_updates true
   depends_on macos: :sequoia
 
   app "Gigamop.app"
