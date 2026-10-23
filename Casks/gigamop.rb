@@ -1,6 +1,6 @@
 cask "gigamop" do
-  version "0.1.3"
-  sha256 "f62cc853c270f9d22c8e10a23d20e300a7025ed340e21619bcf23d3e6992e5be"
+  version "0.1.4"
+  sha256 "f98e619a5b96aa5afd4524253fc861d18084004786c7bb6d09c5b3722dab5a2b"
 
   url "https://gigamop.com/download/Gigamop-#{version}.dmg"
   name "Gigamop"
